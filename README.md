@@ -1,16 +1,5 @@
 <div>
-  <h1 align="center">books_finder</h1>
-  <p align="center" >
-    <a title="Discord" href="https://discord.gg/674gpDQUVq">
-      <img src="https://img.shields.io/discord/809528329337962516?label=discord&logo=discord" />
-    </a>
-    <a title="Pub" href="https://pub.dartlang.org/packages/books_finder" >
-      <img src="https://img.shields.io/pub/v/books_finder.svg?style=popout&include_prereleases" />
-    </a>
-    <a title="Github License">
-      <img src="https://img.shields.io/github/license/bdlukaa/books_finder" />
-    </a>
-  <div>
+  <h1 align="center">google_books</h1>
 </div>
 
 A library to help on the search for books on the [Google Books Api](https://developers.google.com/books/docs/v1/using).
@@ -20,7 +9,7 @@ A library to help on the search for books on the [Google Books Api](https://deve
 First of all, import the library:
 
 ```dart
-import 'package:books_finder/books_finder.dart';
+import 'package:google_books/google_books.dart';
 ```
 
 ### Querying books
@@ -75,15 +64,3 @@ final info = book.info;
 | industryIdentifier (`List<IndustryIdentifier>`) | The identifiers of the book (isbn)          |
 | imageLinks (`List<Map<String, Uri>>`)           | The links with the avaiable image resources |
 | language (`String`)                             | The language code of the book               |
-
-## Acknowledgements
-
-- [@JimTim](https://github.com/JimTim) for industry identifiers and tests
-- [@Moomink](https://github.com/Moomink) for fixing `startIndex`
-- [@niklasenberg](https://github.com/niklasenberg) for `BookInfo.subtitle` and `QueryType`
-
-## Issues and feedback
-
-Please file issues, bugs, or feature requests in our [issue tracker](https://github.com/bdlukaa/books_finder/issues/new).
-
-To contribute a change to this plugin open a [pull request](https://github.com/bdlukaa/books_finder/pulls).
